@@ -1,4 +1,5 @@
-@font-face {
-  font-family: 'Roboto Slab';
-  src: url('./../../fonts/RobotoSlab/RobotoSlab-Regular.ttf');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* {
+  font-family: "Roboto Slab" !important;
 }
