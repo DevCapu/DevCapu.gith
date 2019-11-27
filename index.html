@@ -1,34 +1,62 @@
-DevCapu
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/css/index.css"/>
+  <title>DevCapu</title>
+</head>
+<body>
+    <h1 class="title">DevCapu</h1>
 
-Skills
-Projetos
-Contato
-
-Olá mundo!
-Meu nome é Felipe Moreno Borges, desenvolvedor Fullstack
-
-Skills
-
-Frontend
-Backend
-Mobile
-
-Projetos
-
-WeLive
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid repellendus maiores ipsa doloribus fugit beatae.
-
-WeLive
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, ipsum voluptas possimus incidunt aliquid perspiciatis maxime eos quisquam dolorum rem illo sed quo vel sequi amet, rerum fugit officiis. Exercitationem.
-
-WeLive
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, fugiat. Dolor distinctio hic eos cupiditate, ipsam saepe fugiat sunt architecto. Tempore eaque aperiam nesciunt nisi, non fugit sint saepe cumque.
-
-
-João da Silva
-
-joaodasilva@gmail.com
-
-Deixe sua mensagem aqui...
-
-Enviar
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#skills">Skills</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#projetos">Projetos</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <span class="paragraph__heading">Olá mundo!</span>
+    <p class="paragraph__text">Meu nome é Felipe Moreno Borges, desenvolvedor Fullstack</p>
+    
+    <h2 class="subtitle">Skills</h2>
+    
+    <ul class="skills_tabList">
+      <li class="skills__tab">Frontend</li>
+      <li class="skills__tab">Backend</li>
+      <li class="skills__tab">Mobile</li>
+    </ul>
+    
+    <h2 class="subtitle">Projetos</h2>
+    
+    <ul class="project__list">
+        <li class="project__item">
+            <h3 class="project__title">WeLive</h3>
+            <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid repellendus maiores ipsa doloribus fugit beatae.</p>
+        </li>
+    
+        <li class="project__item">
+            <h3 class="project__title">WeLive</h3>
+            <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid repellendus maiores ipsa doloribus fugit beatae.</p>
+        </li>
+    
+        <li class="project__item">
+            <h3 class="project__title">WeLive</h3>
+            <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid repellendus maiores ipsa doloribus fugit beatae.</p>
+        </li>
+    </ul>
+    
+    <input class="formInput" type="text" placeholder="João da Silva">
+    <input class="formInput" type="email" placeholder="joaodasilva@gmail.com">
+    <textarea class="formInput--large"> sua mensagem aqui...</textarea>
+    <button class="button">Enviar</button>
+</body>
+</html>
