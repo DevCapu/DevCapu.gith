@@ -110,11 +110,7 @@ table {
 
 .marker {
   display: inline-block;
-  width: 110%;
   padding: .3rem .3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 5px; }
 
 .marker--primary {
