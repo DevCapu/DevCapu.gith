@@ -33,7 +33,6 @@ html, body {
   box-sizing: border-box;
   width: 100%;
   background-color: #313131;
-
 }
 
 .navigation__listItem {
@@ -48,4 +47,39 @@ html, body {
   text-transform: capitalize;
   color: #eeeeee;
   font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+
+  #menu__button {
+    display: none;
+    background-color: green;
+  }
+
+  .navigation {
+    position: static;
+    transition: none;
+    width: auto;
+  }
+
+  .navigation__list {
+    display: flex;
+    width: auto;
+    box-sizing: border-box;
+    background-color: #313131;
+  }
+
+  .navigation__listItem {
+    border: none;
+  }
+
+  .navigation__link {
+    font-size: 1rem;
+    font-weight: 700;
+
+  }
 }
