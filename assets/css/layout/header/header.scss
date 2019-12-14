@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(0,0,0,0.05);
+  background-color:$complementar-color;
 }
 
 .header__title {
@@ -28,5 +28,5 @@
 
 .navigation__link {
   text-decoration: none;
-  color: $complementar-color;
+  color: white;
 }
