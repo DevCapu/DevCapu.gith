@@ -1,0 +1,31 @@
+.section__projects {
+}
+
+.project__list {
+
+}
+
+.project__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #313131;
+  cursor: pointer;
+}
+
+.project__title {
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: center;
+  font-size: 1.2rem; 
+  margin: 1rem 0; 
+}
+
+.project__resume {
+  font-family: 'Roboto Slab', sans-serif;
+  text-align: justify;
+  margin: 1rem 0; 
+}

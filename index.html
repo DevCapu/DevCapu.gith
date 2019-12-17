@@ -1,140 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/reset.css"/>
-    <link rel="stylesheet" href="./assets/css//libs/hamburguers.css">
-    <link rel="stylesheet" href="./assets/css/base.css"/>
-    <link rel="stylesheet" href="./assets/css/header.css"/>
-    <link rel="stylesheet" href="./assets/css/welcome.css"/>
-    <title>DevCapu</title>
-</head>
-<body>
-<header class="header container">
-    <h1 class="header__title">DevCapu</h1>
-    <button class="hamburger hamburger--spring" id="menu__button" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>  
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__listItem">
-                <a class="navigation__link" href="#skills">Skills</a>
-            </li>
-            <li class="navigation__listItem">
-                <a class="navigation__link" href="#projetos">Projetos</a>
-            </li>
-            <li class="navigation__listItem">
-                <a class="navigation__link" href="#contato">Contato</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main">
-    <section class="section section__hello">
-        <img src="./assets/img/ola.svg" class="hello__image" />
-        <section class="hello__paragraphs">
-            <span class="paragraph__heading">Olá mundo!</span>
-            <p class="paragraph__text">Meu nome é <span class="marker marker--primary">Felipe Moreno Borges</span>, futuro Desenvolvedor</p>
-        </section>
-    </section>
-    <section class="section section__skills">
-        <section class="skills__tabs">
-            <h2 class="subtitle">Skills</h2>
-            <ul class="skills__tabList">
-                <li class="skills__tab marker marker--secundary">Frontend</li>
-                <li class="skills__tab marker marker--secundary">Backend</li>
-                <li class="skills__tab marker marker--secundary">Mobile</li>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="./assets/css/reset.css"/>
+      <link rel="stylesheet" href="./assets/css//libs/hamburguers.css">
+      <link rel="stylesheet" href="./assets/css/base.css"/>
+      <link rel="stylesheet" href="./assets/css/header.css"/>
+      <link rel="stylesheet" href="./assets/css/welcome.css"/>
+      <link rel="stylesheet" href="./assets/css/skills.css"/>
+      <link rel="stylesheet" href="./assets/css/projects.css"/>
+      <link rel="stylesheet" href="./assets/css/footer.css"/>
+      <title>DevCapu</title>
+   </head>
+   <body>
+      <header class="header container">
+         <h1 class="header__title">DevCapu</h1>
+         <button class="hamburger hamburger--spring" id="menu__button" type="button">
+         <span class="hamburger-box">
+         <span class="hamburger-inner"></span>
+         </span>
+         </button>  
+         <nav class="navigation">
+            <ul class="navigation__list">
+               <li class="navigation__listItem">
+                  <a class="navigation__link" href="#skills">Skills</a>
+               </li>
+               <li class="navigation__listItem">
+                  <a class="navigation__link" href="#projetos">Projetos</a>
+               </li>
+               <li class="navigation__listItem">
+                  <a class="navigation__link" href="#contato">Contato</a>
+               </li>
             </ul>
-            <section class="skills__tabItem">
-                <ul>
-                    <li class="skill__skill">
-                        <h4 class="skill__title">HTML + CSS + JS</h4>
-                        <ul class="skill__list">
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem"></li>
-                            <li class="skill__listItem"></li>
-                        </ul>
-                    </li>
-
-                    <li class="skill__skill">
-                        <h4 class="skill__title">HTML + CSS + JS</h4>
-                        <ul class="skill__list">
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem"></li>
-                            <li class="skill__listItem"></li>
-                        </ul>
-                    </li>
-
-                    <li class="skill__skill">
-                        <h4 class="skill__title">HTML + CSS + JS</h4>
-                        <ul class="skill__list">
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem skill__listItem--active"></li>
-                            <li class="skill__listItem"></li>
-                            <li class="skill__listItem"></li>
-                        </ul>
-                    </li>
-                </ul>
+         </nav>
+      </header>
+      <main class="main">
+         <section class="section section__hello">
+            <img src="./assets/img/ola.svg" class="section__image" />
+            <section class="hello__paragraphs">
+               <span class="paragraph__heading">Olá mundo!</span>
+               <p class="paragraph__text">Meu nome é <span class="marker marker--primary">Felipe Moreno Borges</span>, futuro Desenvolvedor</p>
             </section>
-        </section>
-        <section class="skills__image"></section>
-    </section>
-    <section class="section section__projects">
-        <h2 class="subtitle">Projetos</h2>
-        <ul class="project__list">
-            <li class="project__item">
-                <h3 class="project__title">WeLive</h3>
-                <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum
-                    excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid
-                    repellendus maiores ipsa doloribus fugit beatae.</p>
-            </li>
-
-            <li class="project__item">
-                <h3 class="project__title">WeLive</h3>
-                <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum
-                    excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid
-                    repellendus maiores ipsa doloribus fugit beatae.</p>
-            </li>
-
-            <li class="project__item">
-                <h3 class="project__title">WeLive</h3>
-                <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum
-                    excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid
-                    repellendus maiores ipsa doloribus fugit beatae.</p>
-            </li>
-        </ul>
-    </section>
-</main>
-
-<input class="formInput" type="text" placeholder="João da Silva">
-<input class="formInput" type="email" placeholder="joaodasilva@gmail.com">
-<textarea class="formInput--large"> sua mensagem aqui...</textarea>
-<button class="button">Enviar</button>
-
-<script src="./assets/js/hamburguer-menu.js"></script>
-</body>
+         </section>
+         <section class="section section__skills">
+            <section class="skills__tabs">
+               <h2 class="subtitle">Skills</h2>
+               <ul class="skills__tabList">
+                  <li class="skills__tab marker marker--secundary">Frontend</li>
+                  <li class="skills__tab marker marker--secundary">Backend</li>
+                  <li class="skills__tab marker marker--secundary">Mobile</li>
+               </ul>
+               <section class="skills__tabItem">
+                  <ul>
+                     <li class="skill__skill">
+                        <h4 class="skill__title">HTML + CSS + JS</h4>
+                        <ul class="skill__list">
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem"></li>
+                           <li class="skill__listItem"></li>
+                        </ul>
+                     </li>
+                     <li class="skill__skill">
+                        <h4 class="skill__title">HTML + CSS + JS</h4>
+                        <ul class="skill__list">
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem"></li>
+                           <li class="skill__listItem"></li>
+                        </ul>
+                     </li>
+                     <li class="skill__skill">
+                        <h4 class="skill__title">HTML + CSS + JS</h4>
+                        <ul class="skill__list">
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem skill__listItem--active"></li>
+                           <li class="skill__listItem"></li>
+                           <li class="skill__listItem"></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </section>
+            </section>
+            <section class="skills__image"></section>
+         </section>
+         <section class="section section__projects">
+            <img src="./assets/img/projetos.svg" alt=""class="section__image"/>
+            <h2 class="subtitle">Projetos</h2>
+            <ul class="project__list">
+               <a href="#" class="project__item">
+                  <h3 class="project__title">WeLive</h3>
+                  <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum
+                     excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid
+                     repellendus maiores ipsa doloribus fugit beatae.
+                  </p>
+               </a>
+               <a href="#" class="project__item">
+                  <h3 class="project__title">WeLive</h3>
+                  <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum
+                     excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid
+                     repellendus maiores ipsa doloribus fugit beatae.
+                  </p>
+               </a>
+               <a href="#" class="project__item">
+                  <h3 class="project__title">WeLive</h3>
+                  <p class="project__resume">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum earum
+                     excepturi aliquam numquam cumque, est mollitia nihil nam nostrum ea distinctio dolorem omnis aliquid
+                     repellendus maiores ipsa doloribus fugit beatae.
+                  </p>
+               </a>
+            </ul>
+         </section>
+      </main>
+      <footer class="footer container">
+				<img src="./assets/img/contato.svg" alt="" class="section__image">
+         <form class="contact__form" action="">
+            <input class="formInput" type="text" placeholder="João da Silva">
+            <input class="formInput" type="email" placeholder="joaodasilva@gmail.com">
+            <textarea class="formInput--large" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+            <button class="button">Enviar</button>
+         </form>
+      </footer>
+      <script src="./assets/js/hamburguer-menu.js"></script>
+   </body>
 </html>
