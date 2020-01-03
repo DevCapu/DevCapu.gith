@@ -11,9 +11,9 @@ html, body {
 }
 
 .header__title {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Slab', sans-serif;
   font-size: 1.5rem;
-  font-weight: 1rem;
+  font-weight: lighter;
   color: #eeeeee;
 }
 
